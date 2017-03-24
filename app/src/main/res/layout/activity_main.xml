@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:orientation="vertical"
+    tools:context="mx.cic.mismapas.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/ibTeotihuacan"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:src="@drawable/teotihuacan"
+                />
+
+            <ImageButton
+                android:id="@+id/ibBellasArtes"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:src="@drawable/bellasartes"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/ibChapultepec"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:src="@drawable/chapultepec"
+                />
+
+            <ImageButton
+                android:id="@+id/ibMonumento"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:src="@drawable/monumento"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
